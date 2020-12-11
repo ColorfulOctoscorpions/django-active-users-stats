@@ -5,7 +5,7 @@ from decimal import Decimal, localcontext
 from dateutil.relativedelta import relativedelta
 
 from .models import Activity
-from query_utils import (
+from .query_utils import (
     get_months_range, parse_date, safe_div, stagger_tuple,
     get_first_last_day_of_month
 )
